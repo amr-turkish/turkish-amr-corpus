@@ -17,6 +17,7 @@ the first Turkish AMR Guidelines: [turkish-amr-guidelines](https://github.com/am
 the first Turkish AMR Parser: [turkish-amr-parser](https://github.com/amr-turkish/turkish-amr-parser)
 
 AMR annotation of IMST: imst-gold-amr-annotations.txt
+
 AMR annotation of Little Prince : little-prince-gold-amr-annotation.txt
 
 
