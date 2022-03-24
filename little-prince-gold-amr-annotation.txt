@@ -1,0 +1,1236 @@
+# ::id lpp_tr.1 ::date 07/19/2021 ::authors Elif
+# ::snt 1.Bölüm
+(b / bölüm
+      :ord (o / ordinal-entity :value 1))
+
+
+# ::id lpp_tr.2 ::date 07/19/2021 ::authors Elif
+# ::snt Altı yaşımdayken, ilk çağın ormanlarını anlatan “Gerçek Öyküler” adlı bir kitapta çok güzel bir resim görmüştüm.
+(g / gör.01
+      :ARG0 (b / ben)
+      :ARG1 (r / resim
+            :mod (g2 / güzel
+                  :degree (ç / çok))
+            :location (k / kitap :wiki - :name (n / name :op1 "Gerçek" :op2 "Öyküler")
+                  :ARG0-of (a / anlat.01
+                        :ARG1 (o / orman
+                              :time (ç2 / çağ
+                                    :mod (i2 / ilk))))))
+      :time (y / yaşlan.01
+            :ARG1 (b3 / ben)
+            :ARG1 (t / temporal-quantity :quant 6
+                  :unit (y2 / yıl))))
+
+# ::id lpp_tr.3 ::date 07/19/2021 ::authors Elif
+# ::snt Bir boa yılanı avını yutmak üzereyken resmedilmişti.
+(e / et.06
+      :ARG1 (r / resim)
+      :ARG2 (y / yılan
+            :mod (b2 / boa))
+      :time (y2 / yut.01
+          :ARG0 y
+            :ARG1 (a / av
+                  :poss y)))
+
+
+# ::id lpp_tr.4 ::date 07/19/2021 ::authors Elif
+# ::snt İşte bu çizimin bir kopyası.
+(b / be-located-at-91
+      :ARG1 (k / kopya
+            :domain (ş / şey
+                  :ARG1-of (ç / çiz.01
+                        :ARG0 (b2 / ben))))
+      :ARG2 (i̇ / İşte))
+
+
+# ::id 596 lpp_tr.5 ::date 07/19/2021 ::authors Elif
+# ::snt Kitapta şunlar yazılıydı: “Boa yılanı avını çiğnemeden, bütün olarak yutar ve hareket edemez hale gelir.
+(y / yaz.01
+      :ARG1 (a / and
+            :op1 (y2 / yut.01
+                  :ARG0 (y3 / yılan
+                        :mod (b / boa))
+                  :ARG1 (a 2/ av
+                        :poss y3
+                        :mod (b2 / bütün))
+                  :prep-without (ç / çiğne.01
+                        :ARG0 y3
+                        :ARG1 a))
+            :op2 (m / mümkün.01 :polarity -
+                  :ARG1 (e / et.06 
+                        :ARG0 y3
+                        :ARG1 (h / hareket))))
+      :location (k / kitap))
+
+# ::id 597 lpp_tr.6 ::date 07/19/2021 ::authors Elif
+# ::snt Sonra da onu sindirebilmek için altı ay boyunca uyur.
+(u / uyu.01
+      :ARG0 (o / o)
+      :duration (t / temporal-quantity :quant 6
+            :unit (a / ay))
+      :purpose (m / mümkün.01
+            :ARG1 (s / sindir.01
+                  :ARG0 o))
+      :time (s2 / sonra))
+
+# ::id 598 lpp_tr.7 ::date 07/19/2021 ::authors Elif
+# ::snt Bu orman maceraları üzerinde uzun uzun düşündüm.
+(d / düşün.01
+      :ARG0 (b / ben)
+      :ARG1 (m / macera
+            :location (o / orman)
+            :mod (b2 / bu))
+      :manner (u / uzun
+            :degree (ç / çok)))
+
+
+# ::id 599 lpp_tr.8 ::date 07/19/2021 ::authors Elif
+# ::snt Sonra renkli bir kalemle ilk resmimi yapmayı başardım.
+(b / başar.01
+      :ARG0 (b2 / ben)
+      :ARG1 (y / yap.01
+            :ARG0 b2
+            :ARG1 (r / resim
+                  :poss b2
+                  :ord (o / ordinal-entity :value 1))
+            :instrument (k / kalem
+                  :mod (r2 / renkli)
+                  :quant (b3 / bir))))
+
+
+# ::id 600 lpp_tr.9 ::date 07/19/2021 ::authors Elif
+# ::snt 1 No’lu resmim.
+(r / resim :wiki - :name (n / name :op1 "1" :op2 "No")
+      :poss (b / ben))
+
+# ::id 601 lpp_tr.10 ::date 07/19/2021 ::authors Elif
+# ::snt işte şöyle bir şeydi: Şaheserimi büyüklere gösterdim ve korkup korkmadıklarını sordum.
+(a / and
+      :op1 (ş / şey
+            :ARG0-of (b / benze.01
+                  :ARG1 (b2 / bu)))
+      :op2 (g / göster.01
+            :ARG0 (b3 / ben)
+            :ARG1 (ş2 / Şaheser
+                  :poss b3)
+            :ARG2 (k / kişi
+                  :mod (b4 / büyük)))
+      :op3 (s / sor.01
+            :ARG0 b3
+            :ARG1 (t / truth-value
+                :polarity-of (k2 / kork.01
+                        :ARG0 k))))
+
+# ::id 602 lpp_tr.11 ::date 07/19/2021 ::authors Elif
+# ::snt Ama onlar dediler: "Korkmak mı?
+(k / karşılaştır.01
+      :ARG2 (d / de.01
+            :ARG0 (o / onlar)
+            :ARG2 (k2 / kork.01
+                  :polarity (a / amr-unknown))))
+
+# ::id 603 lpp_tr.12 ::date 07/19/2021 ::authors Elif
+# ::snt Bir şapkadan niye korkalım ki?"
+(k / kork.01
+      :ARG0 (ş / şapka)
+      :ARG1 (b / biz)
+      :ARG1-of (o / ol.17
+            :ARG0 (a / amr-unknown)))
+
+# ::id 604 lpp_tr.13 ::date 07/19/2021 ::authors Elif
+# ::snt Oysa çizdiğim resim bir şapkaya ait değildi.
+(k / karşılaştır.01
+      :ARG2 (o / ol.26 :polarity -
+            :ARG0 (r / resim
+                  :ARG1-of (ç / çiz.01
+                        :ARG0 (b / ben)))
+            :ARG1 (ş / şapka)))
+
+
+# ::id 605 lpp_tr.14 ::date 07/19/2021 ::authors Elif
+# ::snt Koca bir fili sindirmekte olan bir boa yılanını çizmiştim ben.
+(ç / çiz.01
+      :ARG0 (b / ben)
+      :ARG1 (y / yılan
+            :mod (b2 / boa)
+            :ARG0-of (s / sindir.01
+                  :ARG1 (f / fil
+                        :mod (k / koca)))))
+
+# ::id 606 lpp_tr.15 ::date 07/19/2021 ::authors Elif
+# ::snt Neyse, büyükler anlayabilsin diye başka bir resim daha çizdim: bu kez boa yılanının midesindeki fili açık seçik göstermiştim.
+(a / and
+    :op1 (ç / çiz.01
+          :ARG0 (b / ben)
+          :ARG1 (r / resim :quant 1
+                :mod (b2 / başka))
+          :purpose (a2 / anla.01
+                :ARG0 (k2 / kişi
+                      :mod (b3 / büyük))
+                :ARG1 r))
+    :op2 (g / göster.01
+          :ARG0 b
+          :ARG1 (f / fil
+                :location (m / mide
+                      :poss (y / yılan
+                            :mod (b4 / boa))))
+          :manner (a3 / açık-seçik)
+          :time (k3 / kez
+                :mod (b5 / bu))))
+
+
+
+# ::id 607 lpp_tr.16 ::date 07/19/2021 ::authors Elif
+# ::snt Şu büyüklere hep açıklama yapmak gerekiyor.
+(g / gerek.01
+      :ARG0 (k / kişi
+            :mod (b / büyük)
+            :mod (Ş / Şu))
+      :ARG1 (a / aç.01
+            :ARG1 k)
+      :time (h / hep))
+
+# ::id 608 lpp_tr.17 ::date 07/20/2021 ::authors Elif
+# ::snt İkinci resmim ise şöyle bir şey oldu: Bu kez büyüklerin cevabı boa yılanını içten ya da dıştan çizmeyi bir yana bırakıp, coğrafya, tarih, aritmetik ve gramerle ilgilenmemi tavsiye etmek oldu.
+(a / and
+      :op1 (b / benze.01
+            :ARG0 (r / resim
+                  :poss (b2 / ben)
+                  :ord (o / ordinal-entity
+                        :value (e / e)))
+            :ARG1 (ş / şey
+                  :mod (ş2 / şöyle)))
+      :op2 (e2 / et-06
+            :ARG0 (k / kişi
+                  :mod (b3 / büyük))
+            :ARG1 (i2 / ilgilen.01
+                  :ARG0 b2
+                  :ARG1 (a2 / and
+                        :op1 (c / coğrafya)
+                        :op2 (t2 / tarih)
+                        :op3 (a3 / aritmatik)
+                        :op4 (g / gramer))
+                  :prep-after (b4 / bırak.01
+                        :ARG0 b2
+                        :ARG1 (r2 / resim
+                              :ARG1-of (ç / çiz.01
+                                    :ARG0 b2
+                                    :topic (y / yılan
+                                          :mod (b5 / boa))
+                                    :manner (o2 / or
+                                          :op1 (i3 / iç)
+                                          :op2 (d / dış))))
+                        :location (y2 / yan)))
+            :manner (t / tavsiye)
+            :time (k2 / kez
+                  :mod (b6 / bu))))
+
+
+# ::id 609 lpp_tr.18  ::date 07/20/2021 ::authors Elif
+# ::snt Böylece altı yaşımdayken resim kariyerimi terk etmek zorunda kaldım.
+(o / ol.17
+      :ARG0 (b / bu)
+      :ARG1 (k / kal.12
+            :ARG1 (b2 / ben)
+            :ARG2 (t / terket.01
+                  :ARG0 b2
+                  :ARG1 (k2 / kariyer
+                        :poss b2
+                        :topic (ç / çiz.01
+                              :ARG0 b2
+                              :ARG1 (r / resim))))
+            :time (y / yaşlan.01
+                  :ARG1 b2
+                  :duration (t2 / temporal-quantity :quant 6
+                        :unit (y2 / yıl)))))
+
+
+# ::id 610 lpp_tr.19 ::date 07/20/2021 ::authors Elif
+# ::snt İlk iki resmimin başarısız olması beni hayal kırıklığına uğratmıştı.
+(o / ol.17
+      :ARG0 (b / başar.01 :polarity -
+            :ARG0 (r / resim
+                  :poss (b2 / ben)
+                  :ord (o2 / ordinal-entity :value 2)))
+      :ARG1 (u / uğra.01
+            :ARG1 (k / kır.01
+                  :poss (h / hayal))))
+
+
+# ::id 611 lpp_tr.20 ::date 07/20/2021 ::authors Elif
+# ::snt Büyükler kendi başlarına hiçbir şeyi anlayamıyor, çocuklar ise aynı şeyin tekrar tekrar anlatılmasından sıkılıyorlardı.
+(k / karşılaştır.01
+      :ARG1 (m / mümkün.01
+            :ARG1 (a / anla.01 :polarity -
+                  :ARG0 (k2 / kişi
+                        :mod (b / büyük))
+                  :ARG1 (ş / şey
+                        :mod (h / hiçbir))
+                  :manner (k3 / kendi-başlarına)))
+      :ARG2 (s / sıkıl.01
+            :ARG0 (ç / çocuk
+                  :ARG1 (a2 / anlat.01
+                        :ARG0 ç
+                        :ARG1 (ş2 / şey
+                              :mod (a3 / aynı))
+                        :manner (t / tekrar
+                              :degree (ç2 / çok))))))
+
+
+# ::id 612 lpp_tr.21 ::date 07/20/2021 ::authors Elif
+# ::snt Bu yüzden başka bir meslek seçmek zorunda kaldım ve pilot oldum.
+(o / ol.17
+    :ARG0 (b / bu)
+      :ARG1 (a / and
+            :op1 (z / kal.12
+                  :ARG0 (b2 / ben)
+                  :ARG2 (s / seç.01
+                        :ARG0 b2
+                        :ARG1 (m / meslek
+                              :mod (b3 / başka))))
+            :op2 (o1 / ol.03
+                  :ARG0 b2
+                  :ARG1 (p / pilot))))
+
+
+# ::id 613 lpp_tr.22 ::date 07/20/2021 ::authors Elif
+# ::snt Dünyanın hemen hemen her yerine uçtum; ve doğrusunu isterseniz, coğrafya bilgilerim çok işime yaradı.
+(a / and
+      :op1 (u / uç.01
+            :ARG0 (b / ben)
+            :ARG4 (y / yer
+                  :mod (h / her)
+                  :part-of (d / dünya))
+            :manner (h2 / hemen
+                  :degree (ç / çok)))
+      :op2 (y2 / yara.01
+            :ARG0 (b2 / bilgi
+                  :poss b
+                  :topic (c / coğrafya))
+            :ARG1 (i2 / iş
+                  :poss b)
+            :degree (ç2 / çok)))
+
+
+# ::id 614 lpp_tr.23 ::date 07/20/2021 ::authors Elif
+# ::snt Şimdi bir bakışta Çin ile Arizona’yı birbirinden ayırabiliyorum.
+(m / mümkün.01
+      :ARG1 (a / ayır.03
+            :ARG0 (b / ben)
+            :ARG1 (ü / ülke :wiki "China" :name (i2 / isim :op1 (ç / Çin)))
+            :ARG3 (e / eyalet :wiki "Arizona" :name (i3 / isim :op1 (a2 / Arizona)))
+            :manner (b2 / bakış))
+      :time (ş / şimdi))
+
+
+# ::id 615 lpp_tr.24 ::date 07/20/2021 ::authors Elif
+# ::snt Ayrıca gece vakti kaybolduğunuzda coğrafya çok işinize yarar.
+(y / yara.01
+      :ARG0 (c / coğrafya)
+      :ARG1 (i2 / iş
+            :poss (s / siz))
+      :condition (k / kaybol.01
+            :ARG0 (s2 / siz)
+            :time (d / date-entity
+                  :dayperiod (g / gece)))
+      :degree (ç / çok))
+
+# ::id 616 lpp_tr.25 ::date 07/20/2021 ::authors Elif
+# ::snt Neyse, mesleğim gereği , yaşamım boyunca birçok önemli insanla bir arada bulundum.
+(o / ol.17
+      :ARG0 (m / meslek
+            :poss (b / ben))
+      :ARG1 (b2 / bulun.01
+            :ARG0 b
+            :ARG1 (i / insan
+                  :quant (b3 / birçok)
+                  :mod (ö / önemli))
+            :duration (y / yaşa.01
+                  :ARG0 b)))
+
+# ::id 617 lpp_tr.26 ::date 07/20/2021 ::authors Elif
+# ::snt Büyüklerle çok vakit geçirdim.
+
+(g / geçir.02
+      :ARG0 (b / ben)
+      :ARG1 (v / vakit
+            :degree (ç / çok))
+      :accompanier (k / kişi
+            :mod (b2 / büyük)))
+
+# ::id 618 lpp_tr.27 ::date 07/20/2021 ::authors Elif
+# ::snt Ama korkarım bu yakın ilişkiler bile benim onlar hakkındaki düşüncelerimi değiştirmedi.
+(k / karşılaştır.01
+      :ARG2 (y / yap.03 :polarity -
+            :ARG0 (i2 / ilişki
+                  :mod (y2 / yakın)
+                  :mod (b / bu))
+            :ARG1 (d / değiş.01
+                  :ARG0 (d2 / düşünce
+                        :poss (b2 / ben)
+                        :topic (o / onlar)))))
+
+# ::id 619 lpp_tr.28 ::date 07/20/2021 ::authors Elif
+# ::snt Ne zaman yeterince zeki olduğunu düşündüğüm biriyle karşılaşsam, ona hemen 1 No’lu resmimi gösterdim.
+(g / göster.01
+      :ARG0 (b / ben)
+      :ARG1 (r / resim :name (n / name :op1 "1" :op2 "No")
+            :poss b)
+      :ARG2 k2
+      :manner (h / hemen)
+      :time (k / karşılaş.01
+            :ARG0 b
+            :ARG1 (k2 / kişi
+                  :ARG1-of (i2 / içer-91
+                        :ARG2 (o2 / onlar))
+                  :mod (z / zeki
+                        :degree (y / yeterince)))))
+
+# ::id 620 lpp_tr.29 ::date 07/20/2021 ::authors Elif
+# ::snt Bakalım onu gerçekten anlayabilecek miydi.
+(b / bak.03
+      :ARG0 (b2 / biz)
+      :ARG1 (m / mümkün.01
+            :ARG1 (a / anla.01
+                  :ARG0 (o / o)
+                  :ARG1 (o2 / o)
+                  :manner (g / gerçek)
+                  :polarity (a2 / amr-unknown))))
+
+
+# ::id 621 lpp_tr.30 ::date 07/20/2021 ::authors Elif
+# ::snt Ama hepsi bunun bir şapka olduğunu söylediler.
+(k / karşılaştır.01
+      :ARG2 (s / söyle.01
+            :ARG0 (h / hepsi)
+            :ARG1 (o / ol.02
+                  :ARG0 (b / bu)
+                  :ARG1 (ş / şapka))))
+
+
+# ::id 622 lpp_tr.31 ::date 07/20/2021 ::authors Elif
+# ::snt Bu yüzden ben de boa yılanlarından, ilk çağdaki ormanlardan, ya da yıldızlardan bahsetmeyi bırakıp.
+(o / ol.17
+    :ARG0 (b5 / bu)
+    :ARG1 (b / bırak.01
+            :ARG0 (b2 / ben)
+            :ARG1 (b3 / bahset.01
+                  :ARG0 b2
+                  :ARG2 (y / ya-da
+                        :op1 (y2 / yılan
+                              :mod (b4 / boa))
+                        :op2 (o2 / orman
+                              :time (ç / çağ
+                                    :mod (i2 / ilk)))
+                        :op3 (y3 / yıldız)))))
+
+
+# ::id 623 lpp_tr.32 ::date 07/20/2021 ::authors Elif
+# ::snt Onların seviyesine indim.
+(i2 / in.01
+      :ARG0 (b / ben)
+      :ARG4 (s / seviye
+            :poss (o / onlar)))
+
+
+# ::id 624 lpp_tr.33 ::date 01/18/2019 ::authors Zahra
+# ::snt Onlarla briç, golf, politika ve boyun bağları hakkında konuştum.
+(k / konuş.01
+      :ARG0 (b / ben)
+      :ARG2 (a / and
+            :op1 (b2 / briç)
+            :op2 (g / golf)
+            :op3 (p / politika)
+            :op4 (b3 / boyun-bağı))
+      :ARG1 (o / onlar))
+
+
+# ::id 625 lpp_tr.34 ::date 07/20/2021 ::authors Elif
+# ::snt Böylece bu yetişkinler benim gibi duyarlı biriyle karşılaştıkları için mutlu oldular.
+(o / ol.02
+      :ARG0 (k / kişi
+            :mod (y / yetişkin))
+      :ARG1 (m / mutlu)
+      :ARG1-of (o2 / ol.17
+            :ARG0 (k2 / karşılaş.01
+                  :ARG0 k
+                  :ARG1 (k3 / kişi
+                        :ARG0-of (v / var.01
+                              :ARG1 (d / duyar))
+                        :example (b / ben))))
+      :manner (b2 / böyle))
+
+
+# ::id 626 lpp_tr.35 ::date 07/20/2021 ::authors Elif
+# ::snt 2. Bölüm
+(b / bölüm
+      :ord (o / ordinal-entity :value 2))
+
+
+
+# ::id 627 lpp_tr.36 ::date 07/20/2021 ::authors Elif
+# ::snt Çevremde gerçek sohbetler yapabileceğim hiç kimse olmadan ve tek başıma yaşadım ta ki altı yıl önce Sahara Çölü’nde uçağım kaza yapıncaya dek.
+(y / yaşa.01
+      :ARG0 (b / ben)
+      :manner (t / tek-başıma)
+      :prep-without (o / ol.01
+            :ARG1 (k / kimse
+                  :ARG1-of (e / et-19
+                        :ARG0 b
+                        :ARG1-of (m / mümkün.01))
+                  :location (ç / çevre
+                        :poss b)))
+      :duration (y2 / yap.01
+            :ARG0 (u / uçak
+                  :poss b)
+            :ARG1 (k2 / kaza)
+            :location (ç2 / çöl :wiki "Sahara" :name (i2 / isim :op1 (s / Sahara)))
+            :time (ö / önce
+                  :op1 (ş / şimdi)
+                  :quant (t2 / temporal-quantity :quant 6
+                        :unit (y3 / yıl)))))
+
+
+# ::id 628 lpp_tr.37 ::date 07/20/2021 ::authors Elif
+# ::snt Motorum arızalanmıştı.
+(a / arızalan.00
+      :ARG0 (m / motor
+            :poss (b / ben)))
+
+
+# ::id 629 lpp_tr.38 ::date 07/20/2021 ::authors Elif
+# ::snt Ve yanımda ne bir teknisyen, ne de bir yolcu olmadığı için, onu kendim tamir etmek zorundaydım.
+(k / kal.12
+      :ARG1 (b / ben)
+      :ARG2 (e / et.06
+            :ARG0 b
+            :ARG1 (t / tamir)
+            :ARG2 (o / o))
+      :ARG1-of (o2 / ol.17
+            :ARG0 (o3 / ol.07 :polarity -
+                  :ARG0 (o4 / or
+                        :op1 (t2 / teknisyen)
+                        :op2 (y / yolcu))
+                  :location (y2 / yan
+                        :poss (b2 / ben)))))
+
+
+# ::id 630 lpp_tr.39 ::date 07/20/2021 ::authors Elif
+# ::snt Bu bir ölüm kalım meselesiydi : Yanımda bana ancak bir hafta yetecek kadar su vardı.
+(m / mesele
+      :mod (a / and
+            :op1 (ö / öl.01)
+            :op2 (k / kal.03))
+      :domain (b / bu)
+      :ARG1-of (c / ol.17
+            :ARG0 (s / su :polarity -
+                  :location (y / yan
+                        :poss (b2 / ben))
+                  :duration (t / temporal-quantity :quant 1
+                        :unit (h / hafta)))))
+
+
+# ::id 631 lpp_tr.40 ::date 07/20/2021 ::authors Elif
+# ::snt Çöldeki ilk gecem kumların üzerinde uyuyarak geçti.
+(g / geç.01
+      :ARG0 (g2 / gece
+            :poss (b / ben)
+            :location (ç / çöl))
+      :prep-by (u / uyu.01
+            :ARG0 b
+            :location (ü / üzeri
+                  :poss (k / kum))))
+
+
+# ::id 632 lpp_tr.41 ::date 07/20/2021 ::authors Elif
+# ::snt Buraya en yakın yerleşim yeri 1600 kilometre uzaktaydı.
+(h / have-degree-91
+      :ARG1 (y / yer
+            :ARG2-of (y2 / yerleş.01))
+      :ARG2 (y3 / yakın)
+      :ARG3 (e / en)
+      :location (r / relative-position
+            :op1 (b / bura)
+            :quant (d / distance-quantity :quant 1600
+                  :unit (k / kilometre))
+            :direction (u / uzak)))
+
+
+
+# ::id 633 lpp_tr.42 ::date 07/20/2021 ::authors Elif
+# ::snt Deniz kazası geçirerek okyanusun ortasında kalakalmış bir denizciyi düşünün.
+(d / düşün.01 :mode imperative
+      :ARG0 (s / siz)
+      :ARG1 (d2 / denizci
+            :ARG0-of (k / kal.03
+                  :location (o / orta
+                        :part-of (o2 / okyanus))
+                  :prep-by (g / geçir.03
+                              :ARG0 d2
+                              :ARG1 (k2 / kaza
+                                    :location (d3 / deniz))))))
+
+
+
+# ::id 634 lpp_tr.43 ::date 07/20/2021 ::authors Elif
+# ::snt Şimdi güneş doğarken cılız, tuhaf bir sesin beni uyandırmasına ne kadar şaşırdığımı tahmin edebilirsiniz.
+(m / mümkün.01
+      :ARG1 (e / et.62
+            :ARG0 (s / siz)
+            :ARG1 (ş / şaşır.01
+                  :ARG0 (b / ben)
+                  :ARG1 (y / yap.03
+                        :ARG0 (s2 / ses
+                              :mod (a / and
+                                    :op1 (c / cılız)
+                                    :op2 (t / tuhaf)))
+                        :ARG1 (u / uyan.01
+                              :ARG0 b)
+                        :time (d / doğ.01
+                              :ARG0 (g / güneş)))
+                  :degree (a2 / amr-unknown))
+            :time (ş2 / şimdi)))
+
+# ::id 635 lpp_tr.44 ::date 07/20/2021 ::authors Elif
+# ::snt Bu ses: “ Lütfen bana bir koyun resmi çizin” diyordu.
+(d / de.01
+      :ARG0 (s / ses
+            :mod (b / bu))
+      :ARG1 (ç / çiz.01 :mode imperative
+            :ARG0 (s2 / siz)
+            :ARG1 (r / resim
+                  :topic (k / koyun)))
+            :ARG2 (b2 / ben))
+
+
+# ::id 636 lpp_tr.45 ::date 07/20/2021 ::authors Elif
+# ::snt “Ne?”
+(n / ne :mode expressive)
+
+
+# ::id 637 lpp_tr.46 ::date 07/20/2021 ::authors Elif
+# ::snt “Bana bir koyun resmi çizin.”
+(ç / çiz.01 :mode imperative
+      :ARG0 (s / siz)
+      :ARG1 (r / resim
+            :topic (k / koyun))
+      :ARG2 (b / ben))
+
+
+# ::id 638 lpp_tr.47 ::date 07/20/2021 ::authors Elif
+# ::snt Yerimden sıçradım.
+(s / sıçra.03
+      :ARG0 (b / ben)
+      :ARG1 (y / yer
+            :poss b))
+
+
+# ::id 639 lpp_tr.48 ::date 07/20/2021 ::authors Elif
+# ::snt Gözlerimi ovuşturdum.
+(o / ovala.01
+      :ARG0 (b / ben)
+      :ARG1 (g / göz
+            :poss b))
+
+
+# ::id 640 lpp_tr.49 ::date 07/20/2021 ::authors Elif
+# ::snt Dikkatle etrafıma baktım.
+(b / bak.01
+      :ARG0 (b2 / ben)
+      :ARG1 (e / etraf
+            :poss b2)
+      :manner (d / dikkat))
+
+
+# ::id 641 lpp_tr.50 ::date 07/20/2021 ::authors Elif
+# ::snt Şaşılacak derecede küçük bir erkek çocuğu gözlerini dikmiş, ciddi ciddi bana bakıyordu.
+(a2 / and
+      :op1 (g / göz-dik-00
+          :ARG0 (ç / çocuk
+                  :mod (a / and
+                        :op1 (e / erkek)
+                        :op2 (k / küçük
+                            :degree(ş / şaş.01
+                                  :degree (ç2 / çok))))))       
+      :op2 (b / bak.01
+            :ARG0 ç
+            :ARG1 (b2 / ben)
+            :manner (c / ciddi
+                  :degree (ç3 / çok))))
+
+
+# ::id 642 lpp_tr.51 ::date 07/23/2021 ::authors Elif
+# ::snt Gördüğünüz bu resmi sonradan yaptım ve bu, onun çizebildiğim en iyi resmiydi.
+(a / and
+      :op1 (y / yap.01
+            :ARG0 (b / ben)
+            :ARG1 (r / resim
+                  :mod (b2 / bu)
+                  :ARG1-of (g / gör.01
+                        :ARG0 (s / siz)))
+            :time (s2 / sonra))
+      :op2 (r2 / resim
+            :domain r
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (i2 / iyi)
+                  :ARG3 (e / en))
+            :ARG1-of (ç / çiz.01
+                  :ARG0 (b3 / ben)
+                  :ARG1-of (m / mümkün.01))))
+
+
+# ::id 643 lpp_tr.52 ::date 07/23/2021 ::authors Elif
+# ::snt Ama kesinlikle gerçeğinin yarısı kadar bile güzel olmadığını söylemeliyim.
+(k / karşılaştır.01
+      :ARG2 (g / gerek.01
+            :ARG1 (s / söyle.01
+                  :ARG0 (b / ben)
+                  :ARG1 (o / ol.02 :polarity -
+                        :ARG0 o
+                        :ARG1 (g2 / güzel
+                              :ARG2-of (h / have-degree-91
+                                    :ARG1 o
+                                    :ARG3 (y2 / yarı)
+                                    :ARG4 (g3 / gerçek
+                                          :poss o)))))))
+
+# ::id 644 lpp_tr.53 ::date 07/23/2021 ::authors Elif
+# ::snt tabii ki bu benim suçum değil.
+(s / suç :polarity -
+      :domain (b / bu)
+      :poss (b2 / ben)
+      :mod (t / tabi-ki))
+
+# ::id 645 lpp_tr.54 ::date 07/23/2021 ::authors Elif
+# ::snt Altı yaşımdayken büyükler yüzünden resim kariyerime son vermek zorunda kalmış, boa yılanını dıştan ve içten gösteren resimler dışında hiçbir şey çizmeyi öğrenememiştim.
+(m / mümkün.01 :polarity -
+      :ARG1 (ö / öğren.01
+            :ARG0 (b / ben)
+            :ARG1 (ç / çiz.01
+                  :ARG0 b
+                  :ARG1 (ş / şey
+                        :ARG2-of (e / except.01
+                              :ARG1 (r / resim
+                                    :ARG0-of (g / göster.01
+                                          :ARG1 (y / yılan
+                                                :mod (b2 / boa))
+                                          :manner (a / and
+                                                :op1 (i2 / iç)
+                                                :op2 (d / dış)))))))
+            :ARG1-of (o / ol.17
+                  :ARG0 (k / kal.12
+                        :ARG0 b
+                        :ARG2 (v / ver.12
+                              :ARG0 b
+                              :ARG1 (k2 / kariyer
+                                    :poss b
+                                    :topic (r2 / resim))
+                              :ARG1-of (o2 / ol.17
+                                    :ARG0 (k3 / kişi
+                                          :mod (b3 / büyük))))
+                        :time (y2 / yaşlan.01
+                              :ARG0 b
+                              :ARG1 (t / temporal-quantity
+                                    :quant (a2 / altı)
+                                    :unit (y3 / yıl)))))))
+
+
+# ::id 646 lpp_tr.55 ::date 07/23/2021 ::authors Elif
+# ::snt Orada büyük bir şaşkınlık içinde kalakalmıştım.
+(k / kal.03
+      :ARG0 (b / ben)
+      :location (o / ora)
+      :manner (ş / şaş.01
+            :ARG0 b))
+
+# ::id 647 lpp_tr.56 ::date 07/23/2021 ::authors Elif
+# ::snt En yakın yerleşim yerine 1600 kilometre uzakta olduğumu unutmayın.
+(u / unut.01 :mode imperative :polarity -
+      :ARG0 (s / siz)
+      :ARG1 (h / have-degree-91
+            :ARG1 (y / yer)
+            :ARG2 (y2 / yakın)
+            :ARG3 (e / en)
+            :location (r / relative-position
+                  :op1 (y3 / yer
+                        :ARG1-of (y4 / yerleş.01))
+                  :quant (d / distance-quantity :quant 1600
+                        :unit (k / kilometre))
+                  :direction (u2 / uzak))))
+
+# ::id 648 lpp_tr.57 ::date 07/23/2021 ::authors Elif
+# ::snt bu küçük delikanlı hiç de kaybolmuş, yorgunluktan bitip tükenmiş, açlıktan, susuzluktan ve korkudan ölmüş gibi görünmüyordu.
+(g / görün.01 :polarity -
+      :ARG0 (d / delikanlı
+            :mod (a / and
+                  :op1 (k / küçük)
+                  :op2 (b / bu)))
+      :ARG1 (a2 / and
+            :op1 (k2 / kaybol.01)
+            :op2 (b2 / bitip-tüken.00
+                  :ARG1-of (o / ol.17
+                        :ARG0 (y / yorgunluk)))
+            :op3 (ö / öl.01
+                  :ARG1-of (o2 / ol.17
+                        :ARG0 (a3 / and
+                              :op1 (a4 / açlık)
+                              :op2 (s / susuzluk)
+                              :op3 (k3 / korku))))))
+
+# ::id 649 lpp_tr.58 ::date 07/23/2021 ::authors Elif
+# ::snt Yerleşim yerlerinden binlerce kilometre uzakta, çölün ortasında kaybolmuş bir çocuğa hiç benzemiyordu.
+(b / benze.01 :polarity -
+      :ARG0 (o / o)
+      :ARG1 (ç / çocuk
+            :ARG0-of (k / kaybol.01
+                  :location (o2 / orta
+                        :part-of (ç2 / çöl))
+                  :location (r / relative-position
+                        :op1 (y / yer
+                              :mod (y2 / yerleşim))
+                        :direction (u / uzak)
+                        :quant (d / distance-quantity :quant 1000
+                              :unit (k2 / kilometre))))))
+
+
+# ::id 650 lpp_tr.59 ::date 07/23/2021 ::authors Elif
+# ::snt Nihayet ağzımı açabildim ve ona:” Peki ama, burada ne yapıyorsun sen?” diye sordum.
+(a / and
+      :op1 (m / mümkün.01
+            :ARG1 (a4 / aç.01
+                  :ARG0 (b / ben)
+                  :ARG1 (a2 / ağız
+                        :poss b))
+            :time (n / nihayet))
+      :op2 (s / sor.01
+            :ARG0 b
+            :ARG1 (k / karşılaştır.01
+                  :ARG2 (y / yap.01
+                        :ARG0 (s2 / sen)
+                        :ARG1 (a3 / amr-unknown)
+                        :location (b2 / burda)))))
+
+# ::id 651 lpp_tr.60 ::date 07/23/2021 ::authors Elif
+# ::snt Sorumu yumuşak, ciddi bir sesle yanıtladı: “Lütfen bana bir koyun çizin.”
+(y / yanıtla.01
+      :ARG0 (o / o)
+      :ARG1 (s / sor.01
+            :poss (b / ben)
+            :ARG2 (ç / çiz.01 :mode imperative 
+                :ARG0 (s2 / siz)
+                :ARG1 (k / koyun)
+                :ARG2 (b2 / ben)))
+      :instrument(s3 / ses
+            :mod (y2 / yumuşak)
+            :mod (c / ciddi)))
+
+
+# ::id 652 lpp_tr.61 ::date 07/23/2021 ::authors Elif
+# ::snt Merakım öyle güçlüydü ki, istediğini yapmaya karar verdim.
+(k / ver.05
+      :ARG0 (b / ben)
+      :ARG1 (y / yap.01
+            :ARG0 b
+            :ARG1 (ş / şey
+                  :ARG1-of (i2 / iste.01
+                        :ARG0 (o / o))))
+      :ARG1-of (c / ol.17
+            :ARG0 (m / et.41
+                  :ARG0 b
+                  :mod (g / güçlü))))
+
+
+# ::id 653 lpp_tr.62 ::date 01/24/2019 ::authors Zahra
+# ::snt Öyle bir durumda bu yaptığım bana ne kadar saçma gelse de, cebimden bir parça kağıtla bir kalem çıkardım.
+(ç / çıkar.01
+      :ARG0 (b / ben)
+      :ARG1 (v / ve
+            :op1 (k / kağıt
+                  :quant (p / parça :quant 1))
+            :op2 (k2 / kalem :quant 1))
+      :ARG2 (c / cep
+            :poss b)
+      :concession (e / mümkün.01
+            :ARG1 (g / gel.09
+                  :ARG1 (y / yap.01
+                        :ARG0 (b2 / ben)
+                        :mod (b3 / bu))
+                  :manner (s / saçma))
+            :time (d / durum
+                  :mod (ö / öyle))))
+
+
+# ::id 654 lpp_tr.63 ::date Azin ::authors Zahra
+# ::snt Fakat aniden eğitimimi coğrafya, tarih, aritmetik ve gramer üzerine yaptığımı hatırladım, bu yüzden de küçük delikanlıya (biraz da kızgın bir şekilde) resim çizmeyi bilmediğimi söyledim.
+(k / karşılaştır.01
+      :ARG2 (o / ol.17
+            :ARG1 (h / hatırla.01
+                  :ARG0 (b / ben)
+                  :ARG1 (y / yap.01
+                        :ARG0 b
+                        :ARG1 (e / eğitim
+                              :topic (a / and
+                                    :op1 (c / coğrafya)
+                                    :op2 (t / tarih)
+                                    :op3 (a2 / artimatik)
+                                    :op4 (g / gramer))))
+                  :manner (a3 / ani))
+            :ARG1 (s / söyle
+                  :ARG0 b
+                  :ARG1 (b2 / bil.01 :polarity -
+                        :ARG0 b
+                        :ARG1 (ç / çiz.01
+                              :ARG0 b
+                              :ARG1 (r / resim)))
+                  :ARG2 (d / delikanlı
+                        :mod (k2 / küçük))
+                  :manner (k3 / kız.01
+                        :ARG0 b
+                        :mod (b3 / biraz)))))
+
+# ::id 655 lpp_tr.64 ::date Azin ::authors Zahra
+# ::snt “Bunun önemi yok” dedi.
+(d / de.01
+      :ARG0 (o / o)
+      :ARG1 (ö / önem :polarity -
+            :domain (b / bu
+                  :poss b)))
+
+# ::id 656 lpp_tr.65 ::date Azin ::authors Zahra
+# ::snt “Bana bir koyun resmi çizin” dedi.
+(d / de.01
+      :ARG0 (o / o)
+      :ARG1 (ç / çiz.01 :mode imperative
+            :ARG0 (s / siz)
+            :ARG1 (r / resim
+                  :topic (k / koyun))
+            :ARG2 (b / ben)))
+
+# ::id 657 lpp_tr.66 ::date Azin ::authors Zahra
+# ::snt Daha önce hiç koyun resmi çizmemiştim.
+(ç / çiz.01 :polarity -
+      :ARG0 (b / ben)
+      :ARG1 (r / resim
+            :topic (k / koyun))
+      :time (ö / önce
+            :mod (d / daha)))
+
+# ::id 658 lpp_tr.67 ::date 08/23/2019 ::authors Zahra
+# ::snt ona boa yılanının dıştan görünüşünü temsil eden ilk resmimi çizdim.
+(ç / çiz.01
+      :ARG0 (b / ben)
+      :ARG1 (r / resim
+            :ARG0-of (t / et.06
+                  :manner (g / görün.01
+                        :ARG0 (y / yılan
+                              :mod (b2 / boa))
+                        :direction (d / dış)))
+            :ord (o / ordinal-entity :value 1)
+            :poss b)
+      :ARG2 o)
+
+# ::id 659 lpp_tr.68 ::date 08/23/2019 ::authors Zahra
+# ::snt Duyduğum şey beni hayretler içinde bıraktı: ”Hayır, hayır!
+(b / bırak.01
+      :ARG0 (ş / şey
+            :op1 (v / ve
+                  :op1 (h / hayır)
+                  :op2 (h2 / hayır))
+            :ARG1-of (d / duy.01
+                  :ARG0 (b2 / ben)))
+      :ARG1 b2
+      :ARG3 (h3 / hayret))
+
+
+# ::id 660 lpp_tr.69 ::date 08/23/2019 ::authors Zahra
+# ::snt Ben fil yutmuş bir boa yılanı istemiyorum.
+(i2 / iste.01 :polarity -
+      :ARG0 (b / ben)
+      :ARG1 (y / yılan
+            :mod (b2 / boa)
+            :ARG0-of (y2 / yut.01
+                  :ARG1 (f / fil))))
+
+# ::id 661 lpp_tr.70 ::date 08/23/2019 ::authors Zahra
+# ::snt Boa yılanı çok tehlikeli bir hayvandır, fil ise hantaldır.
+(a / and
+      :op1 (h / hayvan
+            :mod (t / tehlikeli
+                  :degree (ç / çok))
+            :domain (b / yılan
+                  :mod (y / boa)))
+      :op2 (h2 / hantal
+            :domain (f / fil)))
+
+# ::id 662 lpp_tr.71 ::date 08/23/2019 ::authors Zahra
+# ::snt Benim yaşadığım yerde her şey çok küçük.
+(k / küçük
+      :degree (ç / çok)
+      :domain (ş / şey
+            :mod (h / her))
+      :location (y / yaşa.01
+            :ARG0 (b / ben)))
+
+# ::id 663 lpp_tr.72 ::date 08/23/2019 ::authors Zahra
+# ::snt Bana bir koyun lazım.
+(g / gerek.01
+      :ARG0 (b / ben)
+      :ARG1 (k / koyun))
+
+# ::id 664 lpp_tr.73 ::date 08/23/2019 ::authors Zahra
+# ::snt Bana bir koyun resmi çizin.
+(ç / çiz.01 :mode imperative
+      :ARG0 (s / siz)
+      :ARG1 (r / resim
+            :topic (k / koyun))
+      :ARG2 (b / ben))
+
+# ::id 665 lpp_tr.74 ::date 08/23/2019 ::authors Zahra
+# ::snt Ben de çizdim.
+(ç / çiz.01
+      :ARG0 (b / ben))
+
+# ::id 666 lpp_tr.75 ::date 08/23/2019 ::authors Zahra
+# ::snt Resme dikkatle baktı ve “Yoo!" dedi.
+(a / and
+      :op1 (b / bak.01
+            :ARG0 (o / o)
+            :ARG1 (r / resim)
+            :manner (d / dikkatli))
+      :op2 (d2 / de.01
+            :ARG0 o
+            :ARG1 (s / string-entity :mode expressive :name (y / yoo))))
+
+
+# ::id 667 lpp_tr.76 ::date 08/23/2019 ::authors Zahra
+# ::snt Bu çok hasta bir koyun.
+(k / koyun
+      :domain (b / bu)
+      :mod (h / hasta
+            :degree (ç / çok)))
+
+# ::id 668 lpp_tr.77 ::date 08/23/2019 ::authors Zahra
+# ::snt Bana başka bir tane çizin.
+(ç / çiz.01 :mode imperative
+      :ARG0 (s / siz)
+      :ARG1 (t / tane :quant 1
+            :mod (b / başka))
+      :ARG2 (b2 / ben))
+
+
+# ::id 669 lpp_tr.78 ::date 08/23/2019 ::authors Zahra
+# ::snt Bir tane daha çizdim.
+(ç / çiz.01 
+      :ARG0 (b / ben)
+      :ARG1 (t / tane :quant 1
+            :mod (d / daha)))
+
+
+# ::id 670 lpp_tr.79 ::date 08/23/2019 ::authors Zahra
+# ::snt Küçük dostum kibarca ve hoşgörülü bir tavırla:”Bu bir koyun değil, bak boynuzları var...” dedi.
+(d / de.01
+      :ARG0 (d2 / dost
+            :poss (b / ben)
+            :mod (k / küçük))
+      :ARG1 (v / ve
+            :op1 (k2 / koyun :polarity -
+                  :domain (b2 / bu))
+            :op2 (v2 / var.01
+                  :ARG1 (b3 / boynuz
+                        :ARG1-of (b4 / bak.01 :mode imperative
+                              :ARG0 (s / sen)))))
+      :manner (v3 / ve
+            :op1 (k3 / kibarca)
+            :op2 (h / hoşgörülü)))
+
+
+# ::id 671 lpp_tr.80 ::date 08/23/2019 ::authors Zahra
+# ::snt Bir koç.
+(k / koç
+  :mod (b / bir))
+
+
+# ::id 672 lpp_tr.81 ::date 08/23/2019 ::authors Zahra
+# ::snt Bir çizim daha yaptım.
+(y / yap.01
+      :ARG0 (b / ben)
+      :ARG1 (r / resim :quant 1
+            :ARG1-of (ç / çiz.01)
+            :mod (d / daha)
+            :poss (b2 / ben)))
+
+
+# ::id 673 lpp_tr.82 ::date 08/23/2019 ::authors Zahra
+# ::snt Ama bu da diğerleri gibi kabul edilmedi.
+(k / karşılaştır.01
+      :ARG2 (e / et.21 :polarity -
+            :ARG1 (b / bu)
+            :ARG1-of (b2 / benze.01
+                :ARG2 (ş / şey
+                     :mod (d / diğer)))))
+
+
+# ::id 674 lpp_tr.83 ::date 08/23/2019 ::authors Zahra
+# ::snt “ Bu çok yaşlı.
+(y / yaşlı
+      :domain (b / bu)
+      :degree (ç / çok))
+
+
+# ::id 675 lpp_tr.84 ::date 08/23/2019 ::authors Zahra
+# ::snt Ben uzun süre yaşayacak bir koyun istiyorum.”
+(i2 / iste.01
+      :ARG0 (b / ben)
+      :ARG1 (k / koyun
+            :ARG0 (y / yaşa.01
+                  :duration (s / süre
+                        :mod (u / uzun)))))
+
+
+# ::id 676 lpp_tr.85 ::date 08/23/2019 ::authors Zahra
+# ::snt Sabrım tükenmek üzereydi.
+(t / tüken.01
+      :ARG0 (s / sabır
+            :poss (b / ben))
+      :time (ü / üzere))
+
+
+
+# ::id 677 lpp_tr.86 ::date 08/23/2019 ::authors Zahra
+# ::snt Bir an önce motoru tamir etmeye başlamam gerekiyordu.
+(g / gerek.01
+      :ARG1 (b / başla.01
+            :ARG0 (b2 / ben)
+            :ARG1 (e / et.06
+                  :ARG0 b2
+                  :ARG1 (t / tamir)
+                  :beneficiary (m / motor))
+            :time (b3 / bir-an-önce)))
+
+
+# ::id 678 lpp_tr.87 ::date 08/23/2019 ::authors Zahra
+# ::snt Ben de şu resmi karaladım. 
+(k / karala.01
+    :ARG0 (b / ben)
+    :ARG1 (r / resim
+          :mod (ş / şu)))
+
+
+# ::id 679 lpp_tr.88 ::date 08/23/2019 ::authors Zahra
+# ::snt Sonra da bunu ona açıkladım.
+(a / açıkla.01
+      :ARG0 (b / ben)
+      :ARG1 (b2 / bu)
+      :ARG2 (o / o)
+      :time (s / sonra))
+
+
+# ::id 680 lpp_tr.89 ::date 08/23/2019 ::authors Zahra
+# ::snt ” Bu sadece bir kutu.
+(k / kutu
+      :domain (b / bu)
+      :mod (s / sadece))
+
+
+# ::id 681 lpp_tr.90 ::date 08/23/2019 ::authors Zahra
+# ::snt İstediğin koyun kutunun içinde.”
+(y / yerleşik-bulunmak-91
+      :ARG1 (k / koyun
+            :ARG1-of (i2 / iste.01
+                  :ARG0 (s / sen)))
+      :ARG2 (i3 / iç
+            :part-of (k2 / kutu)))
+
+
+# ::id  682 lpp_tr.91 ::date 08/23/2019 ::authors Zahra
+# ::snt Ama küçük adamın gözlerinin parladığını görünce çok şaşırdım.
+(ş / şaşır.01
+      :ARG0 (b / ben)
+      :degree (ç / çok)
+      :time (g / gör.01
+            :ARG0 b
+            :ARG1 (p / parla-01
+                  :ARG1 (g2 / göz
+                        :poss (a / adam
+                              :mod (k / küçük))))))
+
+# ::id 683 lpp_tr.92 ::date 08/23/2019 ::authors Zahra
+# ::snt “Evet ben de tam böyle bir şey istiyordum.
+(i / iste.01
+      :ARG0 (b / ben)
+      :ARG1 (ş / şey
+          :manner böyle
+          :degree (t / tam)))
+
+
+# ::id 684 lpp_tr.93 ::date 08/23/2019 ::authors Zahra
+# ::snt Sence bu koyuna çok fazla çimen gerekir mi?”
+(d / düşün.01
+      :ARG0 (s / sen)
+      :ARG1 (g / gerek.01
+            :ARG0 (k / koyun
+                  :mod (b / bu))
+            :ARG1 (ç1 / çimen
+                  :degree (ç2 / çok
+                        :mod (f / fazla)))
+            :polarity (a / amr-unknown)))
+
+# ::id 685 lpp_tr.94 ::date 08/23/2019 ::authors Zahra
+# ::snt “Neden sordun?”
+(o / ol.17
+      :ARG0 (a / amr-unknown)
+      :ARG1 (s / sor.01
+            :ARG0 (s2 / sen)))
+
+# ::id 686 lpp_tr.95 ::date 01/27/2019 ::authors Zahra
+# ::snt “Çünkü benim yaşadığım yerde her şey çok küçüktür.”
+(c / ol.17
+      :ARG0 (k / küçük
+            :degree (ç / çok)
+            :domain (ş / şey
+                  :mod (h / her)
+                  :location (y / yaşa.01
+                        :ARG0 (b / ben)))))
+
+# ::id 687 lpp_tr.96 ::date 01/27/2019 ::authors Zahra
+# ::snt “Bence ona yetecek kadar çimen vardır.
+(v / var.01
+      :ARG0 (ç / çimen
+            :ARG1-of (h / have-quant-91
+                  :ARG2 (y / yet.01
+                        :ARG0 ç
+                        :ARG1 (o / o))
+                  :ARG3 (k / kadar))))
+
+
+# ::id 688 lpp_tr.97 ::date 01/27/2019 ::authors Zahra
+# ::snt Sana oldukça küçük bir koyun çizdim.”
+(ç / çiz.01
+      :ARG0 (b / ben)
+      :ARG1 (k / koyun
+            :mod (k2 / küçük
+                  :degree (o / oldukça)))
+      :ARG2 (s / sen))
+
+# ::id 689 lpp_tr.98 ::date 01/27/2019 ::authors Zahra
+# ::snt ”Bak, uykuya yatmış” dedi.
+(d / de.01
+      :ARG0 (o / o)
+      :ARG1 (b / bak :mode imperative
+            :ARG0 (s / sen)
+            :ARG1 (u / uyu.01
+                  :ARG0 (o2 / o))))
+
+
+# ::id 690 lpp_tr.99 ::date 01/27/2019 ::authors Zahra
+# ::snt İşte küçük prensle böyle tanıştım.
+(t / tanış.01
+      :ARG0 (b / ben)
+      :ARG1 (p / prens
+            :mod (k / küçük))
+      :manner (b2 / böyle))
+
+# ::id 691 lpp_tr.100 ::date 01/27/2019 ::authors Zahra
+# ::snt 3. Bölüm
+(b / bölüm
+      :ord (o / ordinal-entity :value 3))
