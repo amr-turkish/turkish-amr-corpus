@@ -24,6 +24,7 @@ AMR annotation of IMST: imst-gold-amr-annotations.txt
 AMR annotation of Little Prince : little-prince-gold-amr-annotation.txt
 
 
+## Licence Information
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
