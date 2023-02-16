@@ -2,7 +2,7 @@
 
 This repository provides the resources introduced within the article:
 
-[Abstract Meaning Representation of Turkish](https://www.cambridge.org/core/journals/natural-language-engineering) accepted for publication in [Natural Language Engineering](https://www.cambridge.org/core/journals/natural-language-engineering), Cambridge Press.
+[Abstract Meaning Representation of Turkish](https://www.cambridge.org/core/journals/natural-language-engineering/article/abstract-meaning-representation-of-turkish/35E839E5AF1F7B9F6BF16275A44BB71D) accepted for publication in [Natural Language Engineering](https://www.cambridge.org/core/journals/natural-language-engineering), Cambridge Press.
 
 
 
